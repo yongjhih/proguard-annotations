@@ -11,11 +11,11 @@ No more ```-keep class drupalfit.DrupalService$User { *; }``` in proguard.flags.
 Instead, Inline keep class and members:
 
 ```java
-    @Keep
-    @KeepClassMembers
-    public static class User {
+@Keep
+@KeepClassMembers
+public static class User {
     ...
-    }
+}
 ```
 
 Installation
