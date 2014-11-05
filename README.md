@@ -1,7 +1,7 @@
 proguard-annotations
 ====================
 
-Easy to AAR maven.
+Easy to use AAR maven.
 
 Usage
 =====
