@@ -1,10 +1,10 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.+'
+        classpath 'com.android.tools.build:gradle:1.0.+'
     }
 }
 
@@ -22,7 +22,8 @@ android {
         minSdkVersion 4
         targetSdkVersion 21
         versionCode = Integer.parseInt(VERSION_CODE)
-        versionName = VERSION_CODE
+        versionName = VERSION_NAME
+        consumerProguardFiles 'annotations.pro'
     }
 
     lintOptions {
@@ -31,14 +32,14 @@ android {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+    gradleVersion = '2.2'
 }
 
 allprojects {
     version = VERSION_NAME
     group = GROUP
     repositories {
-        mavenCentral()
+        jcenter()
     }
 }
 
