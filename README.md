@@ -1,7 +1,9 @@
 proguard-annotations
 ====================
 
-Easy to use AAR maven.
+Easy to use `@Kepp` annotation without include jar file and `proguardFiles annotation.pro`. Just add one line `compile "com.infstory:proguard-annotations:1.0.1"`
+
+Import from official [proguard/examples/annotations/src/proguard/annotation](https://github.com/facebook/proguard/tree/master/examples/annotations/src/proguard/annotation) ref. http://proguard.sourceforge.net/manual/examples.html#annotated
 
 Usage
 =====
