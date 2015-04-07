@@ -1,7 +1,7 @@
 proguard-annotations
 ====================
 
-Easy to use `@Kepp` annotation without include `annotation.jar` file and configure `proguardFiles annotation.pro`. Just add one line `compile "com.infstory:proguard-annotations:1.0.1"`
+Easy to use `@Kepp` annotation without include `annotation.jar` file and configure `proguardFiles annotation.pro`. Just add one line `compile "com.infstory:proguard-annotations:1.0.1"` into build.gradle.
 
 Import from official [proguard/examples/annotations/src/proguard/annotation](https://github.com/facebook/proguard/tree/master/examples/annotations/src/proguard/annotation)
 
