@@ -1,20 +1,16 @@
 proguard-annotations
 ====================
 
-Easy to use `@Kepp` annotation without include `annotation.jar` file and configure `proguardFiles annotation.pro`. Just add one line `compile "com.infstory:proguard-annotations:1.0.1"` into build.gradle.
-
-Import from official [proguard/examples/annotations/src/proguard/annotation](https://github.com/facebook/proguard/tree/master/examples/annotations/src/proguard/annotation)
-
-ref. http://proguard.sourceforge.net/manual/examples.html#annotated
+Easy to use inline @Kepp annotation to keep class, no need to add `-keep class com.github.yongjhih.gson.Post { *; }` into proguard.flags. By AAR, no need to include `annotation.jar` file and configure `proguardFiles annotation.pro`
 
 Usage
 =====
 
-For Gson, No more ```-keep class com.github.yongjhih.gson.Post { *; }``` in proguard.flags.
+For Gson, No need to add ```-keep class com.github.yongjhih.gson.Post { *; }``` into proguard.flags.
 
-For Jackson, No more ```-keep class com.github.yongjhih.jackson.Post { *; }``` in proguard.flags.
+For Jackson, No need to add ```-keep class com.github.yongjhih.jackson.Post { *; }``` into proguard.flags.
 
-For Retrofit, No more ```-keep class com.github.yongjhih.retrofit.Post { *; }``` in proguard.flags.
+For Retrofit, No need to add ```-keep class com.github.yongjhih.retrofit.Post { *; }``` into proguard.flags.
 
 Instead, Inline keep class and members:
 
@@ -36,6 +32,13 @@ dependencies {
     compile "com.infstory:proguard-annotations:+"
 }
 ```
+
+See Also
+========
+
+Import from official [proguard/examples/annotations/src/proguard/annotation](https://github.com/facebook/proguard/tree/master/examples/annotations/src/proguard/annotation)
+
+ref. http://proguard.sourceforge.net/manual/examples.html#annotated
 
 [License] (LICENSE)
 ===================
