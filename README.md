@@ -1,3 +1,5 @@
+[![proguard](art/proguard.png)](art/proguard.png)
+
 proguard-annotations
 ====================
 

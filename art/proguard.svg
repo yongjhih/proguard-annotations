@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="24"
+   version="1.1"
+   width="24"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="1430390205_678080-shield-error.svg">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs22">
+    <linearGradient
+       id="linearGradient3985">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop3987" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="1"
+         id="stop3989" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter3947">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.096789062"
+         id="feGaussianBlur3949" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3985"
+       id="linearGradient3991"
+       x1="12.076818"
+       y1="10.742531"
+       x2="11.942747"
+       y2="10.742531"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1855"
+     inkscape:window-height="1176"
+     id="namedview20"
+     showgrid="false"
+     inkscape:snap-page="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="-14.185406"
+     inkscape:cy="7.4982285"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <g
+     transform="translate(0 -1028.4)"
+     id="g4">
+    <path
+       d="m3 1031.4v10c0 4.2 3.6322 8 9 10 5.368-2 9-5.8 9-10v-10h-18z"
+       id="path6"
+       fill="#95a5a6" />
+    <path
+       d="m3 1030.4v10c0 4.2 3.6322 8 9 10 5.368-2 9-5.8 9-10v-10h-18z"
+       id="path8"
+       fill="#ecf0f1" />
+    <path
+       d="m3 1030.4v10c0 4.2 3.6322 8 9 10v-20h-9z"
+       id="path10"
+       fill="#bdc3c7" />
+    <path
+       d="m5 1032.4v8c0 3.4 2.8251 6.4 7 8 4.175-1.6 7-4.6 7-8v-8h-14z"
+       id="path12"
+       fill="#c0392b" />
+    <path
+       d="m12 1032.4v16c4.175-1.6 7-4.6 7-8v-8h-7z"
+       id="path14"
+       fill="#e74c3c" />
+  </g>
+  <text
+     sodipodi:linespacing="89.999998%"
+     id="text3141"
+     y="10.406779"
+     x="11.777062"
+     style="font-size:4px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.8;fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter3947);font-family:Roboto;-inkscape-font-specification:Roboto Bold"
+     xml:space="preserve"><tspan
+       id="tspan3143"
+       y="10.406779"
+       x="11.777062"
+       sodipodi:role="line">PRO</tspan><tspan
+       id="tspan3145"
+       y="14.00678"
+       x="11.777062"
+       sodipodi:role="line">GUARD</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:89.99999762000000203%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:url(#linearGradient3991);fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Bold;stroke-opacity:1;fill-rule:nonzero"
+     x="12.0313"
+     y="10.288136"
+     id="text3023"
+     sodipodi:linespacing="89.999998%"><tspan
+       sodipodi:role="line"
+       x="12.0313"
+       y="10.288136"
+       id="tspan3027"
+       style="fill-opacity:1;fill:url(#linearGradient3991);fill-rule:nonzero">PRO</tspan><tspan
+       sodipodi:role="line"
+       x="12.0313"
+       y="13.888136"
+       id="tspan3115"
+       style="fill-opacity:1;fill:url(#linearGradient3991);fill-rule:nonzero">GUARD</tspan></text>
+</svg>
