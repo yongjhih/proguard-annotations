@@ -10,14 +10,16 @@ ref. http://proguard.sourceforge.net/manual/examples.html#annotated
 Usage
 =====
 
-No more ```-keep class drupalfit.DrupalService$User { *; }``` in proguard.flags.
+For Gson, No more ```-keep class com.github.yongjhih.gson.Post { *; }``` in proguard.flags.
+For Jackson, No more ```-keep class com.github.yongjhih.jackson.Post { *; }``` in proguard.flags.
+For Retrofit, No more ```-keep class com.github.yongjhih.retrofit.Post { *; }``` in proguard.flags.
 
 Instead, Inline keep class and members:
 
 ```java
 @Keep
 @KeepClassMembers
-public static class User {
+public class Post {
     ...
 }
 ```
