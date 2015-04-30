@@ -55,6 +55,34 @@
        x2="11.942747"
        y2="10.742531"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3985"
+       id="linearGradient4035"
+       x1="12.040784"
+       y1="17.278271"
+       x2="11.966565"
+       y2="17.278271"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3115902,0,0,1.3115902,-3.7504809,-7.3241657)" />
+    <filter
+       inkscape:collect="always"
+       id="filter4037">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0575"
+         id="feGaussianBlur4039" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3985"
+       id="linearGradient4043"
+       gradientUnits="userSpaceOnUse"
+       x1="12.076818"
+       y1="10.742531"
+       x2="11.942747"
+       y2="10.742531"
+       gradientTransform="translate(-0.03125,-1.84375)" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -70,9 +98,9 @@
      id="namedview20"
      showgrid="false"
      inkscape:snap-page="false"
-     inkscape:zoom="9.8333333"
-     inkscape:cx="-14.185406"
-     inkscape:cy="7.4982285"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="-75.353585"
+     inkscape:cy="-25.587388"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -81,7 +109,10 @@
      inkscape:guide-bbox="true" />
   <g
      transform="translate(0 -1028.4)"
-     id="g4">
+     id="g4"
+     inkscape:export-filename="/home/andrew/Downloads/text3023.png"
+     inkscape:export-xdpi="640"
+     inkscape:export-ydpi="640">
     <path
        d="m3 1031.4v10c0 4.2 3.6322 8 9 10 5.368-2 9-5.8 9-10v-10h-18z"
        id="path6"
@@ -106,33 +137,62 @@
   <text
      sodipodi:linespacing="89.999998%"
      id="text3141"
-     y="10.406779"
-     x="11.777062"
+     y="8.5630293"
+     x="11.745812"
      style="font-size:4px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.8;fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter3947);font-family:Roboto;-inkscape-font-specification:Roboto Bold"
-     xml:space="preserve"><tspan
+     xml:space="preserve"
+     inkscape:export-filename="/home/andrew/Downloads/text3023.png"
+     inkscape:export-xdpi="640"
+     inkscape:export-ydpi="640"><tspan
        id="tspan3143"
-       y="10.406779"
-       x="11.777062"
+       y="8.5630293"
+       x="11.745812"
        sodipodi:role="line">PRO</tspan><tspan
        id="tspan3145"
-       y="14.00678"
-       x="11.777062"
+       y="12.163029"
+       x="11.745812"
        sodipodi:role="line">GUARD</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:4px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:89.99999762000000203%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:url(#linearGradient3991);fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Bold;stroke-opacity:1;fill-rule:nonzero"
-     x="12.0313"
-     y="10.288136"
+     style="font-size:4px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:url(#linearGradient4043);fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Bold"
+     x="12.00005"
+     y="8.4443855"
      id="text3023"
-     sodipodi:linespacing="89.999998%"><tspan
+     sodipodi:linespacing="89.999998%"
+     inkscape:export-xdpi="640"
+     inkscape:export-ydpi="640"><tspan
        sodipodi:role="line"
-       x="12.0313"
-       y="10.288136"
+       x="12.00005"
+       y="8.4443855"
        id="tspan3027"
-       style="fill-opacity:1;fill:url(#linearGradient3991);fill-rule:nonzero">PRO</tspan><tspan
+       style="fill:url(#linearGradient4043);fill-opacity:1;fill-rule:nonzero">PRO</tspan><tspan
        sodipodi:role="line"
-       x="12.0313"
-       y="13.888136"
+       x="12.00005"
+       y="12.044386"
        id="tspan3115"
-       style="fill-opacity:1;fill:url(#linearGradient3991);fill-rule:nonzero">GUARD</tspan></text>
+       style="fill:url(#linearGradient4043);fill-opacity:1;fill-rule:nonzero">GUARD</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4001"
+     y="18.848583"
+     x="10.129039"
+     style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.8;fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter4037);font-family:Sans"
+     xml:space="preserve"
+     transform="matrix(1.3115902,0,0,1.3115902,-3.7504809,-7.3241657)"><tspan
+       y="18.848583"
+       x="10.129039"
+       id="tspan4003"
+       sodipodi:role="line">@</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:5.24636078px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4035);fill-opacity:1;stroke:none;font-family:Sans"
+     x="9.787797"
+     y="17.218132"
+     id="text3997"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3999"
+       x="9.787797"
+       y="17.218132"
+       style="fill:url(#linearGradient4035);fill-opacity:1">@</tspan></text>
 </svg>
