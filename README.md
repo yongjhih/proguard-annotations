@@ -11,7 +11,9 @@ Usage
 =====
 
 For Gson, No more ```-keep class com.github.yongjhih.gson.Post { *; }``` in proguard.flags.
+
 For Jackson, No more ```-keep class com.github.yongjhih.jackson.Post { *; }``` in proguard.flags.
+
 For Retrofit, No more ```-keep class com.github.yongjhih.retrofit.Post { *; }``` in proguard.flags.
 
 Instead, Inline keep class and members:
