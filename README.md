@@ -3,7 +3,7 @@
 proguard-annotations
 ====================
 
-Easy to use inline @Kepp annotation to keep class, no need to add `-keep class com.github.yongjhih.gson.Post { *; }` into proguard.flags. By AAR, no need to include `annotation.jar` file and configure `proguardFiles annotation.pro`
+Easy to use inline @Keep annotation to keep class, no need to add `-keep class com.github.yongjhih.gson.Post { *; }` into proguard.flags. By AAR, no need to include `annotation.jar` file and configure `proguardFiles annotation.pro`
 
 Usage
 =====
