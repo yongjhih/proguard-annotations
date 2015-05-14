@@ -3,18 +3,10 @@
 proguard-annotations
 ====================
 
-Easy to use inline @Keep annotation to keep class, no need to add `-keep class com.github.yongjhih.gson.Post { *; }` into proguard.flags. By AAR, no need to include `annotation.jar` file and configure `proguardFiles annotation.pro`
+Easy to use inline `@Keep` annotation to keep class.
 
 Usage
 =====
-
-For Gson, No need to add ```-keep class com.github.yongjhih.gson.Post { *; }``` into proguard.flags.
-
-For Jackson, No need to add ```-keep class com.github.yongjhih.jackson.Post { *; }``` into proguard.flags.
-
-For Retrofit, No need to add ```-keep class com.github.yongjhih.retrofit.Post { *; }``` into proguard.flags.
-
-Instead, Inline keep class and members:
 
 ```java
 @Keep
@@ -31,7 +23,7 @@ build.gradle:
 
 ```gradle
 dependencies {
-    compile "com.infstory:proguard-annotations:+"
+    compile "com.infstory:proguard-annotations:1.0.2"
 }
 ```
 
