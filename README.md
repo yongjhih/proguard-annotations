@@ -42,6 +42,11 @@ Import from official [proguard/examples/annotations/src/proguard/annotation](htt
 
 ref. http://proguard.sourceforge.net/manual/examples.html#annotated
 
+TODO
+====
+
+* Test Cases, sample app
+
 [License] (LICENSE)
 ===================
 
