@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+cd proguard-annotations-app/build/outputs/apk
+unzip proguard-annotations-app-release-unsigned.apk
+dex2jar classes.dex
+unzip classes_dex2jar.jar
+tree proguard
+
+tree proguard | grep Dont > /dev/null 2>&1
+
+if [ $? ]; then
+    echo Ok
+else
+    echo No
+fi
