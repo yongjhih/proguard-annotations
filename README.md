@@ -11,8 +11,8 @@ Usage
 ```java
 @Keep
 @KeepClassMembers
-public class Post {
-    ...
+public class KeepMe {
+    String keepMe;
 }
 ```
 
