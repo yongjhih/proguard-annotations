@@ -60,10 +60,9 @@ proguard
 │   ├── KeepPublicImplementations.class
 │   ├── KeepPublicProtectedClassMemberNames.class
 │   └── KeepPublicProtectedClassMembers.class
-└── yongjhih
-    └── app
-        ├── KeepMe.class
-        └── KeepMeWithoutMembers.class
+└── app
+    ├── KeepMe.class
+    └── KeepMeWithoutMembers.class
 
 $ jd-gui classes_dex2jar.jar # Optional
 ```
@@ -72,11 +71,10 @@ $ jd-gui classes_dex2jar.jar # Optional
 $ tree proguard-annotations-app/src/main/java
 proguard-annotations-app/src/main/java
 └── proguard
-    └── yongjhih
-        └── app
-            ├── DontKeepMe.java
-            ├── KeepMe.java
-            └── KeepMeWithoutMembers.java
+    └── app
+        ├── DontKeepMe.java
+        ├── KeepMe.java
+        └── KeepMeWithoutMembers.java
 ```
 
 TODO

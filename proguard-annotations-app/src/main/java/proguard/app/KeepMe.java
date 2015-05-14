@@ -1,4 +1,4 @@
-package proguard.yongjhih.app;
+package proguard.app;
 
 import proguard.annotation.*;
 

@@ -1,8 +1,9 @@
-package proguard.yongjhih.app;
+package proguard.app;
 
 import proguard.annotation.*;
 
-public class DontKeepMe {
+@Keep
+public class KeepMeWithoutMembers {
 
     private String mDontKeepMe;
 
