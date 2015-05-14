@@ -42,10 +42,55 @@ Import from official [proguard/examples/annotations/src/proguard/annotation](htt
 
 ref. http://proguard.sourceforge.net/manual/examples.html#annotated
 
+Test
+====
+
+```
+$ /gradelw clean assembleRelease
+$ cd proguard-annotations-app/build/outputs/apk
+$ unzip proguard-annotations-app-release-unsigned.apk
+$ dex2jar classes.dex
+$ unzip classes_dex2jar.jar
+$ tree proguard
+proguard
+├── annotation
+│   ├── BuildConfig.class
+│   ├── KeepApplication.class
+│   ├── Keep.class
+│   ├── KeepClassMemberNames.class
+│   ├── KeepClassMembers.class
+│   ├── KeepGettersSetters.class
+│   ├── KeepImplementations.class
+│   ├── KeepName.class
+│   ├── KeepPublicClassMemberNames.class
+│   ├── KeepPublicClassMembers.class
+│   ├── KeepPublicGettersSetters.class
+│   ├── KeepPublicImplementations.class
+│   ├── KeepPublicProtectedClassMemberNames.class
+│   └── KeepPublicProtectedClassMembers.class
+└── yongjhih
+    └── app
+        ├── KeepMe.class
+        └── KeepMeWithoutMembers.class
+
+$ jd-gui classes_dex2jar.jar # Optional
+```
+
+```
+$ tree proguard-annotations-app/src/main/java
+proguard-annotations-app/src/main/java
+└── proguard
+    └── yongjhih
+        └── app
+            ├── DontKeepMe.java
+            ├── KeepMe.java
+            └── KeepMeWithoutMembers.java
+```
+
 TODO
 ====
 
-* Test Cases, sample app
+* Test Cases
 
 [License] (LICENSE)
 ===================
