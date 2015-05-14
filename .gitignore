@@ -15,3 +15,5 @@ gen/
 
 build/
 .gradle/
+
+local.properties

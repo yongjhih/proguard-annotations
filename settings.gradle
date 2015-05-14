@@ -1,0 +1,2 @@
+include ':proguard-annotations'
+include ':proguard-annotations-app'

@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.+'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+dependencies {
+    //compile fileTree(dir: 'src/main/libs', include: '*.jar')
+}
+
+android {
+    buildToolsVersion "21.1.0"
+    compileSdkVersion 21
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 21
+        versionCode = Integer.parseInt(VERSION_CODE)
+        versionName = VERSION_NAME
+        consumerProguardFiles 'annotations.pro'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.2'
+}
+
+allprojects {
+    version = VERSION_NAME
+    group = GROUP
+    repositories {
+        jcenter()
+    }
+}
+
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'

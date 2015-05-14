@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.2'
+        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.+'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'android-sdk-manager'
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "proguard.annotation.app"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+}
+
+dependencies {
+    //compile "com.infstory:proguard-annotations:1.0.1"
+    compile project(':proguard-annotations')
+}
