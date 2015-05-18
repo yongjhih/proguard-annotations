@@ -7,6 +7,8 @@ proguard-annotations
 
 Easy to use inline `@Keep` annotation to keep class.
 
+Import from official example.
+
 Usage
 =====
 
