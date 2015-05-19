@@ -7,6 +7,8 @@ proguard-annotations
 
 Easy to use inline `@Keep` annotation to keep class.
 
+And easy to install with `mavenCentral` of `aar`.
+
 Usage
 =====
 
