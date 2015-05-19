@@ -2,15 +2,13 @@
 
 [![proguard](art/proguard.png)](art/proguard.png)
 
-proguard-annotations
-====================
+# proguard-annotations
 
 Easy to use inline `@Keep` annotation to keep class.
 
 And easy to install.
 
-Usage
-=====
+## Usage
 
 ```java
 @Keep
@@ -20,8 +18,7 @@ public class KeepMe {
 }
 ```
 
-Installation
-============
+## Installation
 
 build.gradle:
 
@@ -31,15 +28,133 @@ dependencies {
 }
 ```
 
-See Also
-========
+## Annotations
+
+`@KeepApplication`
+
+```java
+/**
+ * This annotation specifies to keep the annotated class as an application,
+ * together with its a main method.
+ */
+```
+
+`@KeepClassMemberNames`
+
+```java
+/**
+ * This annotation specifies to keep all class members of the annotated class
+ * from being optimized or obfuscated as entry points.
+ */
+```
+
+`@KeepClassMembers`
+
+```java
+/**
+ * This annotation specifies to keep all class members of the annotated class
+ * from being shrunk, optimized, or obfuscated as entry points.
+ */
+```
+
+`@KeepGettersSetters`
+
+```java
+/**
+ * This annotation specifies to keep all getters and setters of the annotated
+ * class from being shrunk, optimized, or obfuscated as entry points.
+ */
+```
+
+`@KeepImplementations`
+
+```java
+/**
+ * This annotation specifies to keep all implementations or extensions of the
+ * annotated class as entry points.
+ */
+```
+
+`@Keep`
+
+```java
+/**
+ * This annotation specifies not to optimize or obfuscate the annotated class or
+ * class member as an entry point.
+ */
+```
+
+`@KeepName`
+
+```java
+/**
+ * This annotation specifies not to optimize or obfuscate the annotated class or
+ * class member as an entry point.
+ */
+```
+
+`@KeepPublicClassMemberNames`
+
+```java
+/**
+ * This annotation specifies to keep all public class members of the annotated
+ * class from being optimized or obfuscated as entry points.
+ */
+```
+
+`@KeepPublicClassMembers`
+
+```java
+/**
+ * This annotation specifies to keep all public class members of the annotated
+ * class from being shrunk, optimized, or obfuscated as entry points.
+ */
+```
+
+`@KeepPublicGettersSetters`
+
+```java
+/**
+ * This annotation specifies to keep all public getters and setters of the
+ * annotated class from being shrunk, optimized, or obfuscated as entry points.
+ */
+```
+
+`@KeepPublicImplementations`
+
+```java
+/**
+ * This annotation specifies to keep all public implementations or extensions
+ * of the annotated class as entry points.
+ */
+```
+
+`@KeepPublicProtectedClassMemberNames`
+
+```java
+/**
+ * This annotation specifies to keep all public or protected class members of
+ * the annotated class from being optimized or obfuscated as entry points.
+ */
+```
+
+`@KeepPublicProtectedClassMembers`
+
+```java
+/**
+ * This annotation specifies to keep all public or protected class members of
+ * the annotated class from being shrunk, optimized, or obfuscated as entry
+ * points.
+ */
+```
+
+## See Also
 
 Import from official [proguard/examples/annotations/src/proguard/annotation](https://github.com/facebook/proguard/tree/master/examples/annotations/src/proguard/annotation)
 
 ref. http://proguard.sourceforge.net/manual/examples.html#annotated
 
-Test
-====
+## Test
 
 ```
 $ /gradelw clean assembleRelease
@@ -81,13 +196,11 @@ proguard-annotations-app/src/main/java
         └── KeepMeWithoutMembers.java
 ```
 
-TODO
-====
+## TODO
 
 * Test Cases
 
-[License] (LICENSE)
-===================
+## [License] (LICENSE)
 
 ```
 The MIT License (MIT)
