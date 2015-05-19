@@ -154,6 +154,8 @@ Parse annotations from java:
 for i in proguard-annotations/src/main/java/proguard/annotation/*; do sed -n '/\/\*\*/,/ \*\//p' $i | sed "1i\`@${i##*/}\`\n" | sed 's/\.java//' | sed 's/\/\*\*/```java\n&/' | sed 's/\*\//&\n```\n/' ;done
 ```
 
+How do annotations do? [proguard-annotations/annotations.pro](proguard-annotations/annotations.pro)
+
 ## See Also
 
 Import from official [proguard/examples/annotations/src/proguard/annotation](https://github.com/facebook/proguard/tree/master/examples/annotations/src/proguard/annotation)
