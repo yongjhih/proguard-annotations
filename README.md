@@ -151,7 +151,7 @@ dependencies {
 Parse annotations for java:
 
 ```bash
-`for i in proguard-annotations/src/main/java/proguard/annotation/*; do sed -n '/\/\*\*/,/ \*\//p' $i | sed "1i\`@${i##*/}\`\n" | sed 's/\.java//' | sed 's/\/\*\*/```java\n&/' | sed 's/\*\//&\n```\n/' ;done`
+for i in proguard-annotations/src/main/java/proguard/annotation/*; do sed -n '/\/\*\*/,/ \*\//p' $i | sed "1i\`@${i##*/}\`\n" | sed 's/\.java//' | sed 's/\/\*\*/```java\n&/' | sed 's/\*\//&\n```\n/' ;done
 ```
 
 ## See Also
