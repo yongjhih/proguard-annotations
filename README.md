@@ -148,7 +148,7 @@ dependencies {
  */
 ```
 
-Parse annotations for java:
+Parse annotations from java:
 
 ```bash
 for i in proguard-annotations/src/main/java/proguard/annotation/*; do sed -n '/\/\*\*/,/ \*\//p' $i | sed "1i\`@${i##*/}\`\n" | sed 's/\.java//' | sed 's/\/\*\*/```java\n&/' | sed 's/\*\//&\n```\n/' ;done
