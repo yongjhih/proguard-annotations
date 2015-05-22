@@ -1,11 +1,11 @@
 # proguard-annotations
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-proguard--annotations-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1833)
 ![JitPack](https://img.shields.io/github/tag/yongjhih/proguard-annotations.svg?label=maven)
 [![Download](https://api.bintray.com/packages/yongjhih/maven/proguard-annotations/images/download.svg) ](https://bintray.com/yongjhih/maven/proguard-annotations/_latestVersion)
 [![Build Status](https://travis-ci.org/yongjhih/proguard-annotations.svg)](https://travis-ci.org/yongjhih/proguard-annotations)
 [![javadoc.io](https://javadocio-badges.herokuapp.com/com.infstory/proguard-annotations/badge.svg)](http://www.javadoc.io/doc/com.infstory/proguard-annotations/)
 [![Join the chat at https://gitter.im/yongjhih/proguard-annotations](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-annotations?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-proguard--annotations-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1833)
 
 [![proguard](art/proguard.png)](art/proguard.png)
 
