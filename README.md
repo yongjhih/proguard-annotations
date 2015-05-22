@@ -3,8 +3,8 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-proguard--annotations-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1833)
 ![JitPack](https://img.shields.io/github/tag/yongjhih/proguard-annotations.svg?label=maven)
 [![Download](https://api.bintray.com/packages/yongjhih/maven/proguard-annotations/images/download.svg) ](https://bintray.com/yongjhih/maven/proguard-annotations/_latestVersion)
-[![Build Status](https://travis-ci.org/yongjhih/proguard-annotations.svg)](https://travis-ci.org/yongjhih/proguard-annotations)
 [![javadoc.io](https://javadocio-badges.herokuapp.com/com.infstory/proguard-annotations/badge.svg)](http://www.javadoc.io/doc/com.infstory/proguard-annotations/)
+[![Build Status](https://travis-ci.org/yongjhih/proguard-annotations.svg)](https://travis-ci.org/yongjhih/proguard-annotations)
 [![Join the chat at https://gitter.im/yongjhih/proguard-annotations](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-annotations?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![proguard](art/proguard.png)](art/proguard.png)
@@ -35,129 +35,7 @@ dependencies {
 
 ## Annotations
 
-`@KeepApplication`
-
-```java
-/**
- * This annotation specifies to keep the annotated class as an application,
- * together with its a main method.
- */
-```
-
-`@KeepClassMemberNames`
-
-```java
-/**
- * This annotation specifies to keep all class members of the annotated class
- * from being optimized or obfuscated as entry points.
- */
-```
-
-`@KeepClassMembers`
-
-```java
-/**
- * This annotation specifies to keep all class members of the annotated class
- * from being shrunk, optimized, or obfuscated as entry points.
- */
-```
-
-`@KeepGettersSetters`
-
-```java
-/**
- * This annotation specifies to keep all getters and setters of the annotated
- * class from being shrunk, optimized, or obfuscated as entry points.
- */
-```
-
-`@KeepImplementations`
-
-```java
-/**
- * This annotation specifies to keep all implementations or extensions of the
- * annotated class as entry points.
- */
-```
-
-`@Keep`
-
-```java
-/**
- * This annotation specifies not to optimize or obfuscate the annotated class or
- * class member as an entry point.
- */
-```
-
-`@KeepName`
-
-```java
-/**
- * This annotation specifies not to optimize or obfuscate the annotated class or
- * class member as an entry point.
- */
-```
-
-`@KeepPublicClassMemberNames`
-
-```java
-/**
- * This annotation specifies to keep all public class members of the annotated
- * class from being optimized or obfuscated as entry points.
- */
-```
-
-`@KeepPublicClassMembers`
-
-```java
-/**
- * This annotation specifies to keep all public class members of the annotated
- * class from being shrunk, optimized, or obfuscated as entry points.
- */
-```
-
-`@KeepPublicGettersSetters`
-
-```java
-/**
- * This annotation specifies to keep all public getters and setters of the
- * annotated class from being shrunk, optimized, or obfuscated as entry points.
- */
-```
-
-`@KeepPublicImplementations`
-
-```java
-/**
- * This annotation specifies to keep all public implementations or extensions
- * of the annotated class as entry points.
- */
-```
-
-`@KeepPublicProtectedClassMemberNames`
-
-```java
-/**
- * This annotation specifies to keep all public or protected class members of
- * the annotated class from being optimized or obfuscated as entry points.
- */
-```
-
-`@KeepPublicProtectedClassMembers`
-
-```java
-/**
- * This annotation specifies to keep all public or protected class members of
- * the annotated class from being shrunk, optimized, or obfuscated as entry
- * points.
- */
-```
-
-Parse annotations from java:
-
-```bash
-for i in proguard-annotations/src/main/java/proguard/annotation/*; do sed -n '/\/\*\*/,/ \*\//p' $i | sed "1i\`@${i##*/}\`\n" | sed 's/\.java//' | sed 's/\/\*\*/```java\n&/' | sed 's/\*\//&\n```\n/' ;done
-```
+[![javadoc.io](https://javadocio-badges.herokuapp.com/com.infstory/proguard-annotations/badge.svg)](http://www.javadoc.io/doc/com.infstory/proguard-annotations/)
 
 How annotations do? [proguard-annotations/annotations.pro](proguard-annotations/annotations.pro)
 
