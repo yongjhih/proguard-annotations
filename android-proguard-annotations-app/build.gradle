@@ -20,6 +20,13 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
+    /*
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    */
+
     defaultConfig {
         applicationId "proguard.app"
         minSdkVersion 4
@@ -40,6 +47,6 @@ android {
 }
 
 dependencies {
-    //compile "com.infstory:proguard-annotations:1.0.1"
-    compile project(':proguard-annotations')
+    //compile "com.infstory:proguard-annotations:1.0.1@aar"
+    compile project(':android-proguard-annotations')
 }

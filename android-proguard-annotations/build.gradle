@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.2'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile project(':proguard-annotations')
+}
+
+android {
+    buildToolsVersion "21.1.0"
+    compileSdkVersion 21
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 21
+        versionCode = Integer.parseInt(VERSION_CODE)
+        versionName = VERSION_NAME
+        consumerProguardFiles 'annotations.pro'
+    }
+}
+
+version = VERSION_NAME
+group = GROUP
+
+apply from: 'mvn-push.gradle'

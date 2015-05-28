@@ -1,4 +1,4 @@
-package rx.parse.app;
+package proguard.annotations.app;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
