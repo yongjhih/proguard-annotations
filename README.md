@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/yongjhih/proguard-annotations.svg)](https://travis-ci.org/yongjhih/proguard-annotations)
 [![Join the chat at https://gitter.im/yongjhih/proguard-annotations](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-annotations?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![proguard](art/proguard.png)](art/proguard.png)
+[![proguard-annotations](art/proguard-annotations.png)](art/proguard-annotations.png)
 
 Easy to use inline `@Keep` annotation to keep class.
 
