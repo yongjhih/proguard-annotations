@@ -91,6 +91,17 @@ proguard-annotations-app/src/main/java
 
 * Test Cases
 
+## See Also
+
+
+[Android Support Annotations - Keep](http://tools.android.com/tech-docs/support-annotations#TOC-Keep)
+
+In progress:
+
+> @Keep
+
+> We've also added @Keep to the support annotations. Note however that > that annotation hasn't been hooked up to the Gradle plugin yet (though > it's [in progress](https://android-review.googlesource.com/#/c/152983/).) When finished this will let you annotate methods and > > classes that should be retained when minimizing the app.
+
 ## [License] (LICENSE)
 
 ```
