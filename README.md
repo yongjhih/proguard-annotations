@@ -91,6 +91,31 @@ proguard-annotations-app/src/main/java
 
 * Test Cases
 
+## FAQ
+
+1. > For which classes I have to use it ? Only classes i made for my items ? Or also activities and services and so on?
+
+It used to apply on reflection target. If you have not use relection, you just enable minify feature with default proguard config by the following build.gradle, and do nothing with proguard config:
+
+```gradle
+android {
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+```
+
+2. > When to use @Keep and when to use @KeepClassMembers ?
+
+`@Keep` used to apply on runtime annotation for relection, it will keep class name and avoid be removed for optimization. `@KeepClassMembers` used to apply whole class with class members for POJO reflection. It's used to keep targets for Gson and Jackson JSON reflection libraries.
+
+3. > I don't need to write anything in my proguard rule file ? For my application or libraries or jars ?
+
+Yes, do nothing if nothing special. Just enable minify.
+
 ## See Also
 
 
