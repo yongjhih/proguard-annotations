@@ -110,7 +110,7 @@ android {
 
 > When to use @Keep and when to use @KeepClassMembers ?
 
-`@Keep` used to apply on runtime annotation for relection, it will keep class name and avoid be removed for optimization. `@KeepClassMembers` used to apply whole class with class members for POJO reflection. It's used to keep targets for Gson and Jackson JSON reflection libraries.
+`@Keep` used to apply on runtime annotation for relection, it will keep class name and avoid be removed for optimization. `@KeepClassMembers` used to keep whole class with class members for POJO reflection. It's used to keep targets for Gson and Jackson JSON reflection libraries.
 
 > I don't need to write anything in my proguard rule file ? For my application or libraries or jars ?
 
