@@ -37,7 +37,7 @@ dependencies {
 
 [![javadoc.io](https://javadocio-badges.herokuapp.com/com.infstory/proguard-annotations/badge.svg)](http://www.javadoc.io/doc/com.infstory/proguard-annotations/)
 
-How annotations do? [proguard-annotations/annotations.pro](proguard-annotations/annotations.pro)
+How annotations do? [proguard-annotations/annotations.pro](android-proguard-annotations/annotations.pro)
 
 ## See Also
 
